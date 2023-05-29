@@ -1,1 +1,1 @@
-export type SquareId = string
+export type SquareId = number
