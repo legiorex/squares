@@ -1,6 +1,7 @@
 import styles from 'styles.module.scss'
 
 import AddItem from 'components/add-item'
+import List from 'components/list'
 import RemoveItem from 'components/remove-item'
 
 const App = () => {
@@ -10,7 +11,7 @@ const App = () => {
         <AddItem />
         <RemoveItem />
       </header>
-      <div>Items</div>
+      <List />
     </div>
   )
 }
