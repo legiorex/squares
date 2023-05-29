@@ -17,7 +17,7 @@ export const squareSlice = createSlice({
   reducers: {},
   extraReducers: {
     [addSquare.type]: (state, action: PayloadAction<Square>) => {
-      state.squares.push(action.payload)
+      state.squares.unshift(action.payload)
     },
     [removeSquare.type]: (state) => {
       state.squares.pop()
