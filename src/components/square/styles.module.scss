@@ -1,0 +1,22 @@
+.wrapper {
+  width: 20%;
+  flex-shrink: 0;
+}
+.squareInner {
+  position: relative;
+  height: 0;
+  border: none;
+  padding-top: 100%;
+}
+.squareContent {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  color: bisque;
+  font-size: 20px;
+  justify-content: center;
+  align-items: center;
+}
