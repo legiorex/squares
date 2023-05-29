@@ -1,10 +1,10 @@
 import { PayloadAction, createSlice } from '@reduxjs/toolkit'
-import { SquareId } from 'types'
+import { Square } from 'types'
 
 import { addSquare, removeSquare } from '../actions'
 
 type SquareState = {
-  squares: Array<SquareId>
+  squares: Array<Square>
 }
 
 const initialState: SquareState = {
@@ -16,7 +16,7 @@ export const squareSlice = createSlice({
   initialState,
   reducers: {},
   extraReducers: {
-    [addSquare.type]: (state, action: PayloadAction<SquareId>) => {
+    [addSquare.type]: (state, action: PayloadAction<Square>) => {
       state.squares.push(action.payload)
     },
     [removeSquare.type]: (state) => {

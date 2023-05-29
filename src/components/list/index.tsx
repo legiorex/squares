@@ -10,9 +10,7 @@ const List = () => {
   return (
     <ul className={styles.list}>
       {squares.map((item) => (
-        <li key={item}>
-          <Square />
-        </li>
+        <Square key={item.id} background={item.color} />
       ))}
     </ul>
   )

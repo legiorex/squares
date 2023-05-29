@@ -1,8 +1,8 @@
 .list {
-  min-width: 100vw;
   display: flex;
   flex-direction: column;
   list-style: none;
+  align-items: center;
 
   > :not(:last-child) {
     margin-bottom: 10px;

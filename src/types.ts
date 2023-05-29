@@ -1,1 +1,4 @@
-export type SquareId = number
+export type Square = {
+  id: number
+  color: string
+}

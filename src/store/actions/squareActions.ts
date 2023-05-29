@@ -1,5 +1,5 @@
 import { createAction } from '@reduxjs/toolkit'
-import { SquareId } from 'types'
+import { Square } from 'types'
 
-export const addSquare = createAction<SquareId>('ADD-SQUARE')
+export const addSquare = createAction<Square>('ADD-SQUARE')
 export const removeSquare = createAction('REMOVE-SQUARE')
