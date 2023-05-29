@@ -1,3 +1,3 @@
-import { addSquare } from './squareActions'
+import { addSquare, removeSquare } from './squareActions'
 
-export { addSquare }
+export { addSquare, removeSquare }

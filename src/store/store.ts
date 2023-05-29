@@ -2,7 +2,7 @@ import { combineReducers, configureStore } from '@reduxjs/toolkit'
 
 import { squareReducer } from './reducers'
 
-const rootReducer = combineReducers({ square: squareReducer })
+const rootReducer = combineReducers({ squares: squareReducer })
 
 export const setupStore = () => {
   return configureStore({
