@@ -1,0 +1,16 @@
+.app {
+  text-align: center;
+  min-width: 100vw;
+}
+
+.appHeader {
+  background-color: #95aedf;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  > :first-child {
+    margin-right: 10px;
+  }
+}
